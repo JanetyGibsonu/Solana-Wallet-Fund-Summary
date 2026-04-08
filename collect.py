@@ -30,7 +30,7 @@ if sys.platform == 'win32':
 # ─── 配置区 ───────────────────────────────────────────────────────────────────
 CONFIG = {
     # RPC 节点，推荐 Helius 免费节点
-    "RPC_URL": "https://mainnet.helius-rpc.com/?api-key=a9808e6b-8058-4e6a-a0da-50c4978ef4fb",
+    "RPC_URL": "https://mainnet.helius-rpc.com/?api-key=填入https://dashboard.helius.dev/的kye",
 
     # 私钥文件（Excel 或 CSV）
     "EXCEL_FILE": "wallets.xlsx",
