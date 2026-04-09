@@ -45,14 +45,16 @@
 
 ```bash
 pip install solders base58 pandas openpyxl aiohttp
-3. 获取 RPC API Key（以 Helius 为例）
+
+
+### 3. 获取 RPC API Key（以 Helius 为例）
 访问 Helius Dashboard
 
 注册账号并创建 RPC 节点（免费套餐足够使用）
 
 复制你的 API Key
 
-4. 配置文件
+### 4. 配置文件
 在脚本目录下创建或编辑配置文件（或直接修改脚本中的对应变量）：
 
 RPC_API_KEY：替换为你的 Helius API Key
@@ -63,13 +65,13 @@ MIN_BALANCE_THRESHOLD：最小归集阈值（默认 0.00001 SOL）
 
 RENT_EXEMPT_RESERVE：保留余额（默认 5000 lamports）
 
-5. 准备钱包列表
+### 5. 准备钱包列表
 创建 wallets.xlsx 文件，包含一列 private_key（钱包私钥），例如：
 
 private_key
 3h...（私钥1）
 5j...（私钥2）
-6. 运行脚本
+### 6. 运行脚本
 bash
 python collect.py
 脚本将自动执行归集并生成结果文件 result_YYYYMMDD_HHMMSS.xlsx。
