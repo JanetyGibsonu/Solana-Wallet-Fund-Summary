@@ -47,12 +47,18 @@
 pip install solders base58 pandas openpyxl aiohttp
 
 
-### 3. 获取 RPC API Key（以 Helius 为例）
-访问 Helius Dashboard
+## 3. 获取 RPC API Key（以 Helius 为例）
 
-注册账号并创建 RPC 节点（免费套餐足够使用）
+```bash
+# 1. 在浏览器中打开以下地址
+open https://dashboard.helius.dev/
 
-复制你的 API Key
+# 2. 注册账号并登录（支持 GitHub/Google）
+
+# 3. 创建一个新的 RPC 节点（免费套餐足够使用）
+
+# 4. 复制你的 API Key，类似这样的字符串：
+#    e5a6f7b8-9c0d-4e1f-8a2b-3c4d5e6f7a8b
 
 ### 4. 配置文件
 在脚本目录下创建或编辑配置文件（或直接修改脚本中的对应变量）：
